@@ -11,6 +11,8 @@ The assets cover two build systems and two QEMU boot flows:
 **Emulator target**: QEMU `-M k230` with one T-HEAD C908 little core, 2 GiB
 RAM, CLINT, PLIC, K230 watchdogs, and 16550-compatible UARTs.
 
+**QEMU K230 branch**: <https://github.com/zevorn/qemu/tree/chao-k230-v7>
+
 The command lines below follow the QEMU `docs/system/riscv/k230.rst` boot
 model.
 
